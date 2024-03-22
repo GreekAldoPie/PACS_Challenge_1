@@ -23,15 +23,13 @@ Ensure your compiler supports C++11 or newer versions as the code utilizes moder
 
 ## Usage
 
-1. Include the header files in your C++ source file:
+To use the gradient descent library:
 
-   ```cpp
-   #include "vec.h"
-   #include "function.h"
-   #include "descent.h"
-   ```
+1. Navigate to the directory containing the cloned repository. 
 
-2. Define your function and its gradient. For a function of two variables, use `Function<2>`:
+2. Modify the `main.cpp` file to define your function and its gradient.
+
+3. For a function of two variables, use `Function<2>`:
 
    ```cpp
    Function<2> myFunction(
