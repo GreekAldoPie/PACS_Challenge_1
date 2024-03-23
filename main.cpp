@@ -1,5 +1,3 @@
-// Test the operator functions
-
 #include "function.h"
 #include "descent.h"
 #include <iostream>

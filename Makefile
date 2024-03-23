@@ -1,7 +1,7 @@
 CXX=g++
 CXXFLAGS ?= -std=c++20
 CPPFLAGS ?= -O3 -Wall -I.
-EXEC=main
+EXEC=minimizer.exe
 OBJECT=main.o
 SRC=main.cpp
 

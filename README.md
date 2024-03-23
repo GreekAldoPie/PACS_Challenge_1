@@ -21,7 +21,7 @@ git clone https://your-repository-link-here.git
 
 Ensure your compiler supports C++11 or newer versions as the code utilizes modern C++ features.
 
-## Usage
+### Usage
 
 To use the gradient descent library:
 
@@ -38,19 +38,15 @@ To use the gradient descent library:
    );
    ```
 
-3. Initialize the gradient descent parameters and create a `Minimizer` object:
+4. Initialize the gradient descent parameters and create a `Minimizer` object:
 
    ```cpp
    GradientDescentHp<2> params = {Vec<2>({0,0}), 1e-6, 1e-6, 0.5, 0.0001, 1000};
    Minimizer<2> minimizer(myFunction, params);
    ```
 
-4. Execute the minimization and obtain the result:
+5. Compile the code by writing `make` in the terminal.
 
-   ```cpp
-   Vec<2> minimum = minimizer.minimize();
-   std::cout << "Minimum found at: " << minimum << std::endl;
-   ```
+6. Execute the compiled program by entering `./minimizer.exe` in the terminal.
 
 This example demonstrates the basic workflow with a predefined function. Modify the function definition and parameters according to your needs.
-
